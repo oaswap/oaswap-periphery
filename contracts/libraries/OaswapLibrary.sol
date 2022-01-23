@@ -22,7 +22,7 @@ library OaswapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'b6933adb6288563883e41bafb950677bf22f3382ef1abf54a25788e65d1eef47' // init code hash
+                hex'914515686b68e5916c6ee7834cd8efc46cc130b030e87c7182b305dd7e3b9a42' // init code hash
             ))));
     }
 
