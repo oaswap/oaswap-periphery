@@ -10,7 +10,7 @@ import './libraries/SafeMath.sol';
 import './interfaces/IERC20.sol';
 import './interfaces/IWETH.sol';
 
-contract OaswapRouter is IOaswapRouter02 {
+contract OASRouter is IOaswapRouter02 {
     using SafeMath for uint;
 
     address public immutable override factory;
